@@ -1,0 +1,25 @@
+{
+  "name": "truffle-debugger",
+  "version": "1.0.0",
+  "description": "1. ganache-cli 2. truffle console 3. (truffle) compile 4. (truffle) migrate 5. x = await SimpleStorage.deployed() 6. debug txHash 7. x.store(5) 8. +:number 9. i (run step by step) 10. r (reset all steps)",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seaona/truffle-debugger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seaona/truffle-debugger/issues"
+  },
+  "homepage": "https://github.com/seaona/truffle-debugger#readme",
+  "dependencies": {
+    "truffle-plugin-debugger": "0.0.2"
+  }
+}
